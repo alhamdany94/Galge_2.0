@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOverFragment"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/status_of_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="40dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+
+    <TextView
+        android:id="@+id/trials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of trials"
+        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/tony_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dead"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tony_is"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tony is dead !"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="#FFFFFF"/>
+
+
+    <Button
+        android:id="@+id/end_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Slut knap"
+        android:backgroundTint="@color/app_yellow"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:padding="15dp"
+        />
+
+
+
+</LinearLayout>
